@@ -5,7 +5,10 @@ description = "Nicer Python client for AWS Bedrock"
 readme = "README.md"
 authors = [{ name = "Abizer Lokhandwala", email = "abizer@abizer.me" }]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+  "aioboto3>=15.0.0",
+  "types-aioboto3[bedrock,bedrock-runtime]>=15.0.0",
+]
 
 [build-system]
 requires = ["hatchling"]
