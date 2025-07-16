@@ -10,3 +10,7 @@ trunk-check:
 
 trunk-fmt:
   trunk fmt
+
+test *args='-n 4':
+  uv run pytest {{args}}
+alias tests := test
