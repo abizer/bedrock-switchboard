@@ -1,11 +1,9 @@
 [project]
 name = "bedrock-switchboard"
 version = "0.1.0"
-description = "Add your description here"
+description = "Nicer Python client for AWS Bedrock"
 readme = "README.md"
-authors = [
-    { name = "Abizer Lokhandwala", email = "abizer@abizer.me" }
-]
+authors = [{ name = "Abizer Lokhandwala", email = "abizer@abizer.me" }]
 requires-python = ">=3.11"
 dependencies = []
 
