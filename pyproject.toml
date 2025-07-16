@@ -21,3 +21,8 @@ dev = [
   "rich>=14.0.0",
   "ruff>=0.12.3",
 ]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+addopts = "-s -v --import-mode=importlib --cov=src/bedrock_switchboard --cov-report=term-missing:skip-covered"
